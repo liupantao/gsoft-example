@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/aop 
+			http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context 
+			http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://code.alibabatech.com/schema/dubbo 
+			http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!-- UUID ESB流水号生成器 -->
+	<bean id="sequenceServiceUUID" class="com.gsoft.framework.remote.service.impl.RemoteSequenceServiceUUID" />
+	
+	<!-- 默认remoteCaller -->
+	<bean id="remoteCaller" class="com.gsoft.dubbo.caller.DefaultRemoteCaller"></bean>
+	<bean id="dubboWebRequestRouter"
+		class="com.gsoft.dubbo.service.impl.DefaultDubboWebRequestRouter"></bean>
+	
+	<!-- 注册监控 -->
+	<!-- <dubbo:monitor protocol="registry" /> -->
+
+	<bean name="local" class="com.gsoft.dubbo.service.impl.DefaultDubboServiceImpl"></bean>
+		
+	<!-- 通用web端接口 -->
+	<dubbo:reference interface="com.gsoft.dubbo.service.DubboService" id="sys" group="sys" retries="0"></dubbo:reference>
+	<dubbo:reference interface="com.gsoft.dubbo.service.DubboService" id="manager" group="manager" retries="0"></dubbo:reference>
+	
+</beans>

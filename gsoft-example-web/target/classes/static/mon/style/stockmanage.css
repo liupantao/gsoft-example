@@ -1,0 +1,56 @@
+/*库存汇总*/
+.stockmanager{width:100%;}
+.stockmanager_top{height:48px; position:fixed;left:0; right:0;top:0;bottom:0;padding-top:0;border-bottom:1px solid #ddd;}
+.stockmanager_bottom{ width:100%;position:fixed;left:0; right:0;top:50px;bottom:0;padding-top: 0px;}
+.stockmanager_bottom .stockmanager_left{width:640px; position:fixed;left:0; right:0; top:50px;bottom:0;transition:1s;padding-top:2px;border-right:1px solid #ddd;}
+.stockmanager_bottom .stockmanager_right {
+    position:fixed;left:640px;width:auto;right: 0;top:50px;padding-top:2px;bottom:0;transition:1s;/*overflow: auto;*/}
+.stockmanager_bottom .stockmanager_right .stockmanager_right_top{
+    position:fixed;left:640px;width:auto;height:360px; right: 0;top:50px;padding-top:2px;bottom:0;transition:1s;/*overflow: auto;*/}
+.stockmanager_bottom .stockmanager_right .stockmanager_right_bottom{
+    position:fixed;left:640px;width:auto; right: 0;top:460px;padding-top:10px;bottom:0;transition:1s;/*overflow: auto;*/}
+
+/*出库管理*/
+.stockOut{width:100%;}
+.stockOut ul li{height:auto;}
+.stockOut_top>form>.layui-form-item{margin-bottom:0;}
+.stockOut_bottom{position:relative;}
+.stockOut_bottom .stockOut_left{width:640px; position:absolute;left:0;top:40px;}
+.stockOut_bottom .stockOut_right{position:absolute;left:641px;top:0;}
+/* .stockOut_top{position:relative;left:0; right:0;top:0;bottom:0;padding-top:0;border-bottom:1px solid #ddd; z-index:11111;}
+.stockOut_bottom{ width:100%;position:relative;left:0; right:0;top:0;bottom:0;padding-top: 0;}
+.stockOut_bottom .functionalZone{position:relative;z-index:111;}
+.stockOut_bottom .stockOut_left{width:640px; position:fixed;left:0; right:0; top:97px;bottom:0;transition:1s;padding-top:35px;border-right:1px solid #ddd;}
+.stockOut_bottom .stockOut_right {position:fixed;left:640px;width:auto;right: 0;top:97px;padding-top:2px;bottom:0;transition:1s;} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

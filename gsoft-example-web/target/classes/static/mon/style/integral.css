@@ -1,0 +1,19 @@
+/*司机积分*/
+.functionalZone{border-bottom:1px solid #009688;padding-bottom:5px;}
+.IntergalLeft{width:426px; border-right:1px solid #009688; position:fixed; left:0; top:92px; bottom:0;}
+.IntergalContent{width:446px; height:100%; overflow-x:hidden;border:1px solid #e6e6e6;border-right:none;border-left:none;}
+.IntLeConTitle{width:100%; height:38px;}
+.IntLeConTitle span{float:left; display:inline-block; text-align:center;font-size:13px; height:38px; line-height:38px; color:#666;background-color:#f2f2f2; border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+.IntergalContent .IntLeCon01{width:90px;}
+.IntergalContent .IntLeCon02{width:122px;}
+.IntergalContent .IntLeCon03{width:120px;}
+.IntergalContent .IntLeCon04{width:90px;}
+.layui-tab-title{height:auto; overflow:hidden; border:none;width:426px;margin:0;padding:0;}
+.layui-tab-title li{width:100%; display:block; padding:0; font-size:13px; height:39px;line-height:38px; overflow:hidden;}
+.layui-tab-title .layui-this:after{box-sizing:content-box; border:none; height:38px!important; overflow:hidden;;}
+.layui-tab-title span{float:left; display:inline-block; text-align:center;font-size:13px; height:38px; line-height:38px; color:#666;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+.layui-tab-title li.layui-this{background-color:#009688;}
+.layui-tab-title li.layui-this span{color:#fff;}
+
+.IntergalRight{width:auto;position:fixed;left:430px; top:92px; bottom:0px; right:0;overflow:auto;}
+.IntergalRight.layui-tab-content{padding-top:0;}

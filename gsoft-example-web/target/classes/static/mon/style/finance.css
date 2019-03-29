@@ -1,0 +1,19 @@
+
+/*组织机构维护*/
+.layui-side{width:300px;border-right:1px solid #ddd; background:#fafafa;}
+.layui-side h3.title{width:100%; height:36px; line-height:36px;border-bottom:1px solid #ddd;font-size:13px;font-weight:bold;padding:0 5px;color:#333;}
+.layui-body{left:300px;}
+/*.layui-tree li{border-bottom:1px dotted #ddd;}*/
+.layui-tree li a cite{font-size:13px;}
+
+.functionalZone{margin:5px 0 0 8px;}
+.layui-body .layui-container{margin:8px 0 8px;}
+.layui-body .layui-container form{width:100%;}
+.layui-body .layui-container .layui-form-pane .layui-form-label{height:34px;}
+.layui-body .layui-container .layui-form-item .layui-input-inline{width:370px;}
+
+/*承运商信息维护中的新增*/
+.twoAdd{width:148px; position:absolute; left:8px; top:35px; z-index:11;background:#fff;animation:twoadd 0.5s;border-left:1px solid #ddd;border-right:1px solid #ddd;display:none;}
+.twoAdd li{width:100%; height:36px;line-height:36px;background:#fff; border-bottom:1px solid #ddd;text-align:left;color:#666;}
+.twoAdd li i.fa{margin-right:5px;font-size:12px;}
+.twoAdd li:hover{background:#f3f3f3; color:#666;)}

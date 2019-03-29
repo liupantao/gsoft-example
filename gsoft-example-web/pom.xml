@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.gsoft.example</groupId>
+    <artifactId>gsoft-example</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>gsoft-example-web</artifactId>
+  
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<!-- 本模块使用的包 -->
+	<dependencies>
+		
+		<dependency>
+			<groupId>com.gsoft.example</groupId>
+			<artifactId>gsoft-example-common</artifactId>
+			<version>${mon.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.gsoft.example</groupId>
+			<artifactId>gsoft-example-api-sys</artifactId>
+			<version>${mon.version}</version>
+		</dependency>
+		
+		<!--接口依赖 -->
+		<dependency> 
+			<groupId>com.gsoft.example</groupId>
+			<artifactId>gsoft-example-api-sys</artifactId>
+			<version>${mon.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sourceforge.nekohtml</groupId>
+			<artifactId>nekohtml</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.thymeleaf</groupId>
+			<artifactId>thymeleaf-spring4</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.github.theborakompanioni</groupId>
+			<artifactId>thymeleaf-extras-shiro</artifactId>
+			<version>1.2.1</version>
+		</dependency>
+		
+		<!--核心框架上下文 -->
+		<dependency>
+			<groupId>com.gsoft.framework</groupId>
+			<artifactId>gsoft-framework-contextweb</artifactId>
+			<version>${gsoft.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gsoft.framework</groupId>
+			<artifactId>gsoft-framework-cache-redis</artifactId>
+			<version>${gsoft.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gsoft.framework</groupId>
+			<artifactId>gsoft-framework-security</artifactId>
+			<version>${gsoft.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gsoft.framework</groupId>
+			<artifactId>gsoft-framework-codemap</artifactId>
+			<version>${gsoft.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.gsoft.framework</groupId>
+			<artifactId>gsoft-framework-job</artifactId>
+			<version>${gsoft.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.gsoft.dubbo</groupId>
+			<artifactId>gsoft-dubbo-core</artifactId>
+			<version>${gsoft.version}</version>
+		</dependency>
+
+		<!-- Junit 单元测试 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<finalName>example-web</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<fork>true</fork>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,16 @@
+/*动力管理*/
+
+/*车头挂车匹配*/
+form.layui-form{width:100%; display:block; position:relative;}
+.layui-form-item .layui-input-inline{width:135px;}
+.headstockMatch{width:100%; position:relative; }
+.cmLine{width:1px; height:370px; position:absolute;left:50%;top:0;background:#009688;font-size:0;}
+
+.cmTop{width:100%; height:370px; overflow:hidden;}
+.cmcLe{width:49%; height:100%; float:left; position:relative;}
+.cmcRi{width:49%; height:100%;float:left;margin-left:1%; position:relative;}
+.content{overflow:auto;width:100%; height:320px;}
+.cmBot{width:100%; height:450px;overflow:hidden; position:relative;}
+.cmBot .content{overflow:auto;width:100%; height:400px;}
+.headstockMatchBtn{width:100%;border-top:1px solid #009688; border-bottom:1px solid #009688; text-align:center;}
+.headstockMatchBtn .layui-btn{display:inline-block;margin:10px auto; font-size:14px; padding:0 28px; letter-spacing:3px}

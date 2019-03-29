@@ -1,0 +1,26 @@
+/*收货信息维护*/
+
+/*收货地址*/
+.shippingAddress{width:96%; font-size: 13px;line-height:24px; overflow:hidden; margin:0 auto;}
+.shippingAddress dl{padding:5px 0 5px; border-bottom:1px dashed #ddd;}
+.shippingAddress dt>span{display:inline-block;width:61%;height:24px;line-height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;float:left; }
+.shippingAddress em{width:15%; font-style:normal;height:24px;line-height:24px;float:left; }
+.shippingAddress em input{vertical-align:middle;}
+.shippingAddress dd {width:100%; overflow:hidden;}
+.shippingAddress dd i {display:inline-block; height:24px; line-height:24px; float:left;margin-right:2%; font-style:normal;}
+.shippingAddress .layui-form-radio span{font-size:12px;}
+.shippingAddress .layui-form-radio i{font-size:20px;}
+.shippingAddress dt button i{font-size:13px;margin-right:3px;}
+.shippingAddress .layui-form-radio{margin:0;}
+.shippingAddress dt button.layui-btn{height: 32px;line-height: 30px;padding: 0 15px;}
+.divider{margin:0 auto 5px; width:100%; float:left; position:relative;}
+
+.divider button{position:absolute;left:76.5%; top:2%;height:30px;line-height:30px;}
+.divider button i{font-size:13px;margin-right:3px;}
+
+/*新增、编辑 地址*/
+.newAddress{width:100%; overflow:hidden; height:auto;}
+.newAddress .layui-form-item{margin:0 0 10px 0;}
+.newAddress .layui-input-inline{width:155px!important;}
+.newAddress .layui-form-label{width:60px;padding: 9px 0;margin-right:3px;font-size:12px;}
+.newAddress .addressSelect .layui-input-inline{width:200px!important;margin-right:10px;}

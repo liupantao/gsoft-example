@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: gsoft-example-api-manager
+Implementation-Version: 1.0.0-SNAPSHOT
+Built-By: liupantao
+Implementation-Vendor-Id: com.gsoft.example
+Build-Jdk: 1.8.0_172
+Implementation-URL: http://maven.apache.org/gsoft-example/gsoft-exampl
+ e-api-manager
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,26 @@
+/* 菜单图标管理*/
+.functionalZone .layui-btn{ border-radius:2px !important; }
+.layui-layout-left{ position:fixed!important;  left:0; top:51px; bottom:0; width:240px; border-right:1px solid #ddd; }
+.layui-layout-right{ left:258px; padding-bottom:8px; }
+
+.dropdown-menu.dropdown-context.compressed-context{ display:none;}
+.layui-layout-left{background:#fafafa;}
+.layui-layout-left>p{  height:36px; line-height:36px; font-size:12px; font-weight:700; color:#333; padding:0 5px;}
+.layui-layout-left .sidebar{width:258px; display:block; height:96%; overflow:auto;}
+.layui-layout-left .navLeft{width:240px;}
+.layui-layout-left .navLeft .treeview {border-top:1px dotted #ddd;  line-height:36px;}
+.layui-layout-left .navLeft .treeview.active{background:#f2f2f2;}
+.layui-layout-left .navLeft .treeview a.nav-link{width:230px;height:36px;display:inline-block; cursor:pointer;padding-left:10px;}
+.layui-layout-left .navLeft .treeview a.nav-link:hover{background:#e7eaec;color:#333;}
+.layui-layout-left .navLeft .treeview a .menu-text{font-size:12px;margin-left:5px;color:#333;}
+.layui-layout-left .navLeft .treeview a .pull-right{margin-top:6px; font-size:14px; margin-right:10px;}
+.layui-layout-left .navLeft .treeview .menu-open .nav-link{width:220px;}
+.layui-layout-left .navLeft .treeview .menu-open .nav-link:hover{color:#000;}
+.layui-layout-left .navLeft .treeview a i.fa{font-size:13px!important;}
+
+.layui-layout-right form{margin:20px 0 0 20px;}
+.layui-layout-right .layui-form-label{font-size:12px; text-align:right; padding: 9px 0px 9px 15px;}
+.layui-layout-right .layui-form-item .layui-input-inline{width:350px;}
+.layui-layout-right .layui-form-item .layui-input-inline .layui-input{height:38px;line-height:38px;}
+.changeICO{width:200px; display:inline-block;margin-top:10px;}
+.changeICO a{ color:#21b384; font-size:12px;}
