@@ -24,7 +24,7 @@ import com.gsoft.mon.sys.provide.SysConvertService;
 @Service
 public class SysConvertServiceImpl implements SysConvertService {
 
-	@Autowired
+	@Autowired(required=false)
 	private ConvertManager convertManager;
 	
 	@Override
