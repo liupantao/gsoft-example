@@ -1,0 +1,10 @@
+com\gsoft\mon\sys\provide\SysMenuService.class
+com\gsoft\mon\sys\entity\SysRole.class
+com\gsoft\mon\sys\provide\SysConvertService.class
+com\gsoft\mon\sys\provide\SysPermissionService.class
+com\gsoft\mon\sys\entity\SysMenu.class
+com\gsoft\mon\sys\provide\SysUserService.class
+com\gsoft\mon\sys\entity\SysPermission.class
+com\gsoft\mon\sys\entity\SysUserAccount.class
+com\gsoft\mon\sys\entity\SysUser.class
+com\gsoft\mon\sys\provide\SysRoleService.class

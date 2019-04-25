@@ -14,39 +14,10 @@
 		<version>2.0.1-SNAPSHOT</version>
 	</parent>
 
-	<repositories>
-		<repository>
-			<id>spring-release</id>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<url>http://repo.spring.io/release</url>
-		</repository>
-
-		<!-- <repository>
-			<id>gsoft-releases</id>
-			<url>${nexus.root}/content/repositories/gsoft-releases</url>
-		</repository> -->
-
-		<repository>
-			<id>gsoft-snapshots</id>
-			<url>http://123.56.243.22:8081/nexus/content/repositories/gsoft-snapshots</url>
-		</repository>
-
-		<repository>
-			<id>activiti</id>
-			<url>http://123.56.243.22:8081/nexus/content/repositories/activiti</url>
-		</repository>
-
-		<repository>
-			<id>thirdpart</id>
-			<url>http://123.56.243.22:8081/nexus/content/repositories/thirdparty</url>
-		</repository>
-	</repositories>
-
+	
 
 	<properties>
-		<gsoft.version>2.0.1-SNAPSHOT</gsoft.version>
+		<gsoft.version>0.0.1-SNAPSHOT</gsoft.version>
 		<mon.version>1.0.0-SNAPSHOT</mon.version>
 		<easyexcel.version>1.0.0-RELEASE</easyexcel.version>
 	</properties>
